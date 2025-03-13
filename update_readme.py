@@ -1,6 +1,17 @@
 import os
 import re
 
+directory = "DSA_Practice"
+files = sorted(os.listdir(directory))
+
+with open("README.md", "w") as readme:
+    readme.write("# DSA Practice Problems\n\n")
+    for file in files:
+        readme.write(f"- {file}\n")
+
+print("README updated successfully!")
+
+
 def extract_day_and_problem(filename):
     """Extract day and problem number from filename using regex."""
     match = re.match(r'day(\d+)-Problem-?(\d+)?\.cpp', filename)
