@@ -2,15 +2,6 @@
 
 - day1-Problem-1.cpp
 - day1-Problem-2.cpp
-- day10-Problem-1.cpp
-- day10-Problem-2.cpp
-- day10-Problem-3.cpp
-- day11-Problem-1.cpp
-- day11-Problem2.cpp
-- day11-Problem3.cpp
-- day12-Problem-1.cpp
-- day12-Problem-3.cpp
-- day12-Problem2.cpp
 - day2-Problem-1.cpp
 - day2-Problem-2.cpp
 - day3-Problem-1.cpp
@@ -28,3 +19,12 @@
 - day9-Problem-1.cpp
 - day9-Problem-2.cpp
 - day9-Problem-3.cpp
+- day10-Problem-1.cpp
+- day10-Problem-2.cpp
+- day10-Problem-3.cpp
+- day11-Problem-1.cpp
+- day11-Problem2.cpp
+- day11-Problem3.cpp
+- day12-Problem-1.cpp
+- day12-Problem-3.cpp
+- day12-Problem2.cpp
