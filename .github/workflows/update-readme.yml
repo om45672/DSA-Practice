@@ -1,38 +1,7 @@
-name: Update README
-
-on: 
-  push:
-    branches:
-      - main
-
-jobs:
-  update-readme:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-
-      - name: Run Sorting Script
-        run: |
-          python3 <<EOF
-          import os
-
-          directory = "DSA_Practice"
-          files = sorted([f for f in os.listdir(directory) if f.endswith(".cpp")], key=lambda x: int(x.split('-')[0][3:]))
-
-          with open("README.md", "w") as f:
-              f.write("# DSA Practice Problems\n\n")
-              f.write("## Sorted List of Problems\n\n")
-              for file in files:
-                  f.write(f"- [{file}](DSA_Practice/{file})\n")
-
-          print("README.md updated with sorted file list.")
-          EOF
-
-      - name: Commit and Push Changes
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add README.md
-          git commit -m "Auto-update README with sorted file list" || exit 0
-          git push
+- name: Commit and Push Changes
+  run: |
+    git config --global user.name "github-actions"
+    git config --global user.email "github-actions@github.com"
+    git add README.md
+    git commit -m "Auto-update README" || echo "No changes to commit"
+    git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
