@@ -27,9 +27,6 @@ jobs:
 
       - name: Run Script to Update README
         run: python update_readme.py
-        
-      - name: Run Script to sort files
-        run: python sort_files.py
       
       - name: Commit and Push Changes
         env:
