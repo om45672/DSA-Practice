@@ -52,3 +52,6 @@
 - [day12-Problem-3.cpp](DSA_Practice/day12-Problem-3.cpp)
 - [day12-Problem2.cpp](DSA_Practice/day12-Problem2.cpp)
 
+## Day 13
+- [day13-Problem-1.cpp](DSA_Practice/day13-Problem-1.cpp)
+
