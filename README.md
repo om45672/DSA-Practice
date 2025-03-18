@@ -69,4 +69,5 @@
 
 ## Day 16
 - [day16-Problem-1.cpp](DSA_Practice/day16-Problem-1.cpp)
+- [day16-Problem-2.cpp](DSA_Practice/day16-Problem-2.cpp)
 
