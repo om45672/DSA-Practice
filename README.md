@@ -81,4 +81,5 @@
 
 ## Day 19
 - [day19-Problem-1.cpp](DSA_Practice/day19-Problem-1.cpp)
+- [day19-Problem2.cpp](DSA_Practice/day19-Problem2.cpp)
 
