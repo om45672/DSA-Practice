@@ -87,3 +87,6 @@
 - [day20-Problem1.cpp](DSA_Practice/day20-Problem1.cpp)
 - [day20-Problem2.cpp](DSA_Practice/day20-Problem2.cpp)
 
+## Day 21
+- [day21-Problem1.cpp](DSA_Practice/day21-Problem1.cpp)
+
