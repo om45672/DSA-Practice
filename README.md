@@ -99,3 +99,6 @@
 - [day23-Problem-1.cpp](DSA_Practice/day23-Problem-1.cpp)
 - [day23-Problem-2.cpp](DSA_Practice/day23-Problem-2.cpp)
 
+## Day 24
+- [day24-Problem-2.cpp](DSA_Practice/day24-Problem-2.cpp)
+
