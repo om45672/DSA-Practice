@@ -104,4 +104,5 @@
 
 ## Day 25
 - [day25-Problem-1.cpp](DSA_Practice/day25-Problem-1.cpp)
+- [day25-Problem-2.cpp](DSA_Practice/day25-Problem-2.cpp)
 
