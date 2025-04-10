@@ -124,4 +124,5 @@
 
 ## Day 30
 - [day30-Problem-1.cpp](DSA_Practice/day30-Problem-1.cpp)
+- [day30-Problem-2.cpp](DSA_Practice/day30-Problem-2.cpp)
 
