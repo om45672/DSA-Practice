@@ -134,3 +134,6 @@
 - [day32-Problem-1.cpp](DSA_Practice/day32-Problem-1.cpp)
 - [day32-Problem-2. cpp](DSA_Practice/day32-Problem-2. cpp)
 
+## Day 33
+- [day33-Problem-1.cpp](DSA_Practice/day33-Problem-1.cpp)
+
